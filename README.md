@@ -16,6 +16,7 @@
   <a href="#Tasks">Tasks</a> •
   <a href="#Results">Results</a> •
   <a href="#Comparisons">Comparisons</a> •
+  <a href="#Reference">Reference</a> •
   <a href="#Questions">Questions</a>
 </p>
 
@@ -38,7 +39,7 @@ We have to train a Chinese NER model using ```sklearn-crfsuite``` module and eva
 </p>
 
 ## **sklearn-crfsuite**
-* **Feature Engineering**[^1]
+* **Feature Engineering**
 
     <img src="https://i.ibb.co/qMM8DGY/2.jpg" alt="2" border="0"></a>
 
@@ -56,9 +57,6 @@ We have to train a Chinese NER model using ```sklearn-crfsuite``` module and eva
     <br>
     <img src="https://i.ibb.co/m8H3qPd/6.jpg" alt="6" border="0"></a>
     <br>
-[^1]: sklearn-crfsuite [tutorial](https://sklearn-crfsuite.readthedocs.io/en/latest/tutorial.html#let-s-use-conll-2002-data-to-build-a-ner-system).
-
-
     <br>
     <br>
     <img src="https://i.ibb.co/zfBBnpg/7.jpg" alt="7" border="0"></a>
@@ -150,6 +148,11 @@ methods and compare the results.
 The dictionary for the character-based method provided very little improvement but it provided much more improvement for word based due to its word-based nature. It allows to the for more accurate results when a Dictionary is used.
 
 The ```Word2vec``` models that we were provided were missing a lot of characters which hinders the performance of the model. Training also takes way too long which makes testing different ideas much harder.
+
+
+# Reference
+[1]: sklearn-crfsuite [tutorial](https://sklearn-crfsuite.readthedocs.io/en/latest/tutorial.html#let-s-use-conll-2002-data-to-build-a-ner-system).
+
 
 # Questions
 Submit your questions and bug reports [here](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/issues).

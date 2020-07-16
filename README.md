@@ -30,7 +30,7 @@ ___
 
 Our dataset consists of many labels one of which is the overwhelming majority. In machine learning, we called this an unbalanced dataset.
 
-We have to train a Chinese NER model using ```sklearn-crfsuite``` module and evaluate its performance. Character based Chinese NER dataset in ```json``` format will be given. Then we try to improve model performance using suggested methods and compare the results.
+We have to train a Chinese NER model using ```sklearn-crfsuite``` module and evaluate its performance. Character based Chinese NER dataset in ```json``` format will be given. Then we try to improve model performance using suggested methods and compare the results. 
 
 <h3 align="center"><b>Procedure:</h3></b>
 <p align="center">
@@ -38,7 +38,7 @@ We have to train a Chinese NER model using ```sklearn-crfsuite``` module and eva
 </p>
 
 ## **sklearn-crfsuite**
-* **Feature Engineering**
+* **Feature Engineering**[^1]
 
     <img src="https://i.ibb.co/qMM8DGY/2.jpg" alt="2" border="0"></a>
 
@@ -56,10 +56,17 @@ We have to train a Chinese NER model using ```sklearn-crfsuite``` module and eva
     <br>
     <img src="https://i.ibb.co/m8H3qPd/6.jpg" alt="6" border="0"></a>
     <br>
+[^1]: sklearn-crfsuite [tutorial](https://sklearn-crfsuite.readthedocs.io/en/latest/tutorial.html#let-s-use-conll-2002-data-to-build-a-ner-system).
+
+
+    <br>
     <br>
     <img src="https://i.ibb.co/zfBBnpg/7.jpg" alt="7" border="0"></a>
     <br>
     <br>
+
+    <h3><b>Chinese version:</h3></b>
+
     <img src="https://i.ibb.co/7gmm0WW/8.jpg" alt="8" border="0"></a>
 
 
@@ -154,5 +161,4 @@ Submit your questions and bug reports [here](https://github.com/luowensheng/Natu
 <p align="center">  
   <sub>© luowensheng.
   </a></p>
-
 
